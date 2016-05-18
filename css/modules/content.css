@@ -1,0 +1,45 @@
+.content{
+	font-family: 'Open Sans', sans-serif;
+	&__photo,&__ photo2, &__block{
+		display: inline-block;
+		vertical-align: top;
+	}
+	&__block, &__block2{
+		margin-left: 40px;
+		color: #969696;
+		font-size: 19px;
+	}
+	&__wrp, &__wrp2{
+		display: flex;
+		align-items: center;
+		margin: 10px 0;
+	}
+	&__form1, &__form2{
+		margin: 40px 0;
+	}
+	&__form2{
+		margin-left: 150px;
+	}
+	&__comment,&__comment2, &__date{
+		font-size: 19px;
+		color: #b4b4b4;
+		font-weight: 300;
+	}
+	&__comment{
+		margin-bottom: 0;
+	}
+	&__comment2{
+		float: right;
+	}
+	&__wrap{
+		border-bottom: 1px solid #ddd;
+	}
+	&__img{
+		color: #3e69e6;
+		font-size: 19px;
+		&:focus, &:hover{
+			color: #3e69e6;
+			text-decoration: none;
+		}
+	}
+}
