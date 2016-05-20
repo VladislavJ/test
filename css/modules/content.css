@@ -1,23 +1,26 @@
 .content{
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 85px;
+	box-shadow: 0,0,5px rgba(0,0,0,0.6);
+	padding: 0 15px;
 	&__wrap{
-		box-shadow: 0 0 1px rgba(0,0,0,0.5);
-		border: 1px solid #d9d9d9;
+		box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+		border: 1px solid #ccc;
 		border-radius: 5px;
+		background: #fff;
 	}
 	&__title{
 		font-weight: 300;
 		font-size: 32px;
 		color: #000;
-		margin: 10px 0;
 		text-align: center;
+		margin: 0;
+		padding: 10px 0;
 	}
 	&__block{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border-top: 1px solid #d9d9d9;
+		border-top: 1px solid #cccccc;
 		padding: 40px 0;
 	}
 	&__text{
@@ -34,10 +37,20 @@
 	}
 	&__btn{
 		display: block;
-		padding: 30px 70px;
-		background: linear-gradient(to top, #36169d, #532ac9);
-		margin: auto;
+		text-transform: uppercase;
+		padding: 25px 80px;
+		background: linear-gradient(to top, #36169d, #4f29c8);
 		font-size: 40px;
 		color: #fff;
+		border: 0;
+		margin: 25px auto 50px auto;
+	}
+	&__new{
+		text-align: center;
+		font-size: 22px;
+		font-family: arial;
+		color: #959595;
+		margin: auto;
+		padding-top: 90px;
 	}
 }

@@ -425,7 +425,6 @@ th {
 .container-fluid{
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 .container{
 	max-width: 60%;
@@ -443,7 +442,11 @@ th {
 	margin-left: -1rem;
 	margin-right: -1rem;
 }
+body{
+	background: #eaeaea;
+}
 .menu{
+	padding-bottom: 85px;
 	font-family: 'Open Sans', sans-serif;
 }
 .menu__list{
@@ -458,6 +461,8 @@ th {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  background: #fff;
+  box-shadow: 0 -4px 12px rgba(0,0,0,0.8);
 }
 .menu__item{
   box-sizing: border-box;
@@ -474,7 +479,7 @@ th {
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
-  border-left: 1px solid #d9d9d9;
+  border-left: 1px solid #b5b5b5;
 }
 .menu__item:first-child{
   border-left: none;
@@ -500,19 +505,22 @@ th {
 }
 .content{
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 85px;
+	box-shadow: 0,0,5px rgba(0,0,0,0.6);
+	padding: 0 15px;
 }
 .content__wrap{
-  box-shadow: 0 0 1px rgba(0,0,0,0.5);
-  border: 1px solid #d9d9d9;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+  border: 1px solid #ccc;
   border-radius: 5px;
+  background: #fff;
 }
 .content__title{
   font-weight: 300;
   font-size: 32px;
   color: #000;
-  margin: 10px 0;
   text-align: center;
+  margin: 0;
+  padding: 10px 0;
 }
 .content__block{
   display: -webkit-box;
@@ -524,7 +532,7 @@ th {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid #cccccc;
   padding: 40px 0;
 }
 .content__text{
@@ -541,12 +549,22 @@ th {
 }
 .content__btn{
   display: block;
-  padding: 30px 70px;
-  background: -webkit-linear-gradient(bottom, #36169d, #532ac9);
-  background: linear-gradient(to top, #36169d, #532ac9);
-  margin: auto;
+  text-transform: uppercase;
+  padding: 25px 80px;
+  background: -webkit-linear-gradient(bottom, #36169d, #4f29c8);
+  background: linear-gradient(to top, #36169d, #4f29c8);
   font-size: 40px;
   color: #fff;
+  border: 0;
+  margin: 25px auto 50px auto;
+}
+.content__new{
+  text-align: center;
+  font-size: 22px;
+  font-family: arial;
+  color: #959595;
+  margin: auto;
+  padding-top: 90px;
 }
 
 
