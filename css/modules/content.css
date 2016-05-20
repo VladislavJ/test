@@ -1,10 +1,12 @@
 .content{
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 85px;
+	padding-top: 85px;
+	background: #eaeaea;
 	&__wrap{
-		box-shadow: 0 0 1px rgba(0,0,0,0.5);
+		box-shadow: 0 2px 3px rgba(0,0,0,0.5);
 		border: 1px solid #d9d9d9;
 		border-radius: 5px;
+		background: #fff;
 	}
 	&__title{
 		font-weight: 300;
@@ -34,10 +36,12 @@
 	}
 	&__btn{
 		display: block;
-		padding: 30px 70px;
+		text-transform: uppercase;
+		padding: 25px 80px;
 		background: linear-gradient(to top, #36169d, #532ac9);
-		margin: auto;
 		font-size: 40px;
 		color: #fff;
+		border: 0;
+		margin: 25px auto 50px auto;
 	}
 }

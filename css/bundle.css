@@ -425,7 +425,6 @@ th {
 .container-fluid{
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 .container{
 	max-width: 60%;
@@ -446,6 +445,13 @@ th {
 .menu{
 	font-family: 'Open Sans', sans-serif;
 }
+/*	position: relative;
+	&::after{
+		display: block;
+		position: absolute;
+		content: '';
+		box-shadow: 0 0 2px rgba(0,0,0,0.8);
+	}*/
 .menu__list{
   padding: 0;
   margin: 0;
@@ -500,12 +506,14 @@ th {
 }
 .content{
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 85px;
+	padding-top: 85px;
+	background: #eaeaea;
 }
 .content__wrap{
-  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
   border: 1px solid #d9d9d9;
   border-radius: 5px;
+  background: #fff;
 }
 .content__title{
   font-weight: 300;
@@ -541,12 +549,14 @@ th {
 }
 .content__btn{
   display: block;
-  padding: 30px 70px;
+  text-transform: uppercase;
+  padding: 25px 80px;
   background: -webkit-linear-gradient(bottom, #36169d, #532ac9);
   background: linear-gradient(to top, #36169d, #532ac9);
-  margin: auto;
   font-size: 40px;
   color: #fff;
+  border: 0;
+  margin: 25px auto 50px auto;
 }
 
 

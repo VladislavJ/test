@@ -1,5 +1,12 @@
 .menu{
 	font-family: 'Open Sans', sans-serif;
+/*	position: relative;
+	&::after{
+		display: block;
+		position: absolute;
+		content: '';
+		box-shadow: 0 0 2px rgba(0,0,0,0.8);
+	}*/
 	&__list{
 		padding: 0;
 		margin: 0;
