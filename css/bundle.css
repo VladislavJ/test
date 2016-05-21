@@ -436,7 +436,6 @@ th {
 	display: table;
 	clear: both;
 }
-
 .row {
 	font-size: 0;
 	margin-left: -1rem;
@@ -552,6 +551,7 @@ body{
   margin: 25px auto 50px auto;
   outline: none;
 }
+.content__btn:focus{}
 .content__new{
   text-align: center;
   font-size: 22px;
@@ -559,6 +559,14 @@ body{
   color: #959595;
   margin: auto;
   padding: 90px 0 25px 0;
+}
+.content__flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media only screen and (max-width : 992px){
 	.menu{

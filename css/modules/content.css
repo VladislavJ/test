@@ -45,6 +45,9 @@
 		border: 0;
 		margin: 25px auto 50px auto;
 		outline: none;
+			&:focus{
+
+			}
 	}
 	&__new{
 		text-align: center;
@@ -53,5 +56,9 @@
 		color: #959595;
 		margin: auto;
 		padding: 90px 0 25px 0;
+	}
+	&__flex{
+		display: flex;
+		justify-content: center;
 	}
 }
