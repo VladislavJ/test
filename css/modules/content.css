@@ -44,6 +44,7 @@
 		color: #fff;
 		border: 0;
 		margin: 25px auto 50px auto;
+		outline: none;
 	}
 	&__new{
 		text-align: center;
