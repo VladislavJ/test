@@ -34,14 +34,7 @@ body{
 		font-weight: 300;
 		text-decoration: none;
 		padding-left: 15px;
-		position: relative;
-		&::after{
-			content:'';
-			position: absolute;
-			width: 30px;
-			height: 30px;
-			background: url(../img/music.svg) no-repeat;
-		}
+		text-transform: uppercase;
 	}
 	&__icon, &__link{
 		display: inline-block;

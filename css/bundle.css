@@ -490,14 +490,7 @@ body{
   font-weight: 300;
   text-decoration: none;
   padding-left: 15px;
-  position: relative;
-}
-.menu__link::after{
-  content:'';
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background: url(../img/music.svg) no-repeat;
+  text-transform: uppercase;
 }
 .menu__icon, .menu__link{
   display: inline-block;
@@ -564,7 +557,107 @@ body{
   font-family: arial;
   color: #959595;
   margin: auto;
-  padding-top: 90px;
+  padding: 90px 0 25px 0;
+}
+@media only screen and (max-width : 992px){
+	.menu{
+		padding-bottom: 30px;
+	}
+	.content__new{
+    padding: 60px 0 20px 0;
+  }
+}
+@media only screen and (max-width : 890px){
+	.container{
+		max-width: 100%;
+	}
+	.menu__icon{
+    width: 10%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+	.content__icon{/*			width: 60px;*/
+    width: 10%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+	.content__text{
+    font-size: 26px;
+    margin: 0;
+  }
+	.content__paragraph{
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width : 480px){
+	.menu__icon{
+    width: 14%;
+  }
+	.content__icon{
+    width: 14%;
+  }
+	.content__text{
+    padding-left: 25px;
+    font-size: 18px;
+  }
+	.content__paragraph{
+    font-size: 20px;
+  }
+	.content__btn{
+    padding: 12px 45px;
+    font-size: 30px;
+    margin: 15px auto 20px auto;
+  }
+	.content__new{
+    font-size: 16px;
+    padding: 30px 0 10px 0;
+  }
+}
+@media only screen and (max-width : 480px){
+	.menu__link{
+    font-size: 20px;
+    padding-left: 6px;
+  }
+}
+@media only screen and (max-width : 360px){
+	.menu__icon{
+    width: 18%;
+  }
+	.menu__link{
+    padding-left: 8px;
+    font-size: 16px;
+  }
+	.content__new{
+    font-size: 14px;
+    padding: 25px 0 8px 0;
+  }
+	.content__title{
+    font-size: 22px;
+  }
+	.content__text{
+    font-size: 16px;
+  }
+	.content__paragraph{
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width : 360px){
+	.content__text{
+    padding-left: 10px;
+    font-size: 14px;
+  }
+	.content__paragraph{
+    font-size: 20px;
+  }
+	.content__new{
+    font-size: 10px;
+  }
+	.content__btn{
+    font-size: 25px;
+  }
+	.menu__item{
+    padding: 20px 0;
+  }
 }
 
 
