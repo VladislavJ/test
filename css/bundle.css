@@ -655,6 +655,12 @@ body{
 	.content__btn{
     font-size: 25px;
   }
+	.content__new{
+    padding-top: 15px;
+  }
+	.menu{
+		padding-bottom: 15px;
+	}
 	.menu__item{
     padding: 20px 0;
   }

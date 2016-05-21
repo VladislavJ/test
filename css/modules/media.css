@@ -110,8 +110,12 @@
 		&__btn{
 			font-size: 25px;
 		}
+		&__new{
+			padding-top: 15px;
+		}
 	}
 	.menu{
+		padding-bottom: 15px;
 		&__item{
 			padding: 20px 0;
 		}
